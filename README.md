@@ -3,5 +3,6 @@ The Order Service handles managing orders in our food delivery application. It a
 
 
 architecture of order service:
-![image](https://github.com/user-attachments/assets/000c589e-6a4e-41b1-b0e8-8362a8095a1c)
+![image](https://github.com/user-attachments/assets/cd7a9af9-8524-4179-b74c-993f399c50ac)
+
 
