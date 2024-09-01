@@ -1,6 +1,7 @@
 package com.order.model;
 
 import java.math.BigDecimal;
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -30,7 +31,7 @@ public class Order {
 	@Column(name = "CUSTOMER_ID")
 	private long customerId;
 	@Column(name = "ORDER_DATE")
-	private LocalDateTime orderDate;
+	private Instant orderDate;
 	@Column(name = "ORDER_STATUS")
 	private String orderStatus;
 	@Column(name = "TOTAL_AMOUNT")
