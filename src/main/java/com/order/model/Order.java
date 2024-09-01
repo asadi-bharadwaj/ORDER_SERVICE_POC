@@ -44,7 +44,9 @@ public class Order {
 	private String shippingMethod;
 	@Column(name = "DISCOUNT")
 	private BigDecimal discount;
-	//@Column(name = "")
-	private List<OrderItems> items;
+	@Column(name = "PRODUCT_NAME")
+	private String productName;
+	@Column(name = "QUANTITY")
+	private int quantity;
 	
 }
