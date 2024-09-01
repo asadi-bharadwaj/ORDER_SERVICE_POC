@@ -17,7 +17,7 @@ public class OrderService {
 	private OrderRepository orderRepository;
 
 	public Long placeOrder(OrderRequest orderRequest) {
-		// -> we can call the productService to block our products(to reduce the
+		// -> we can call the MenuService to block our products(to reduce the
 		// quantity)
 
 		Order order = Order.builder()
